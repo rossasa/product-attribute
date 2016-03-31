@@ -66,7 +66,7 @@
                             </button>
                         </div>
                         <group>
-                            <field name="partner_id"/>
+                            <field name="partner_id" context="{'default_supplier':1,'default_customer':0}"/>
                         </group>
                         <group string="Description">
                             <field name="description" nolabel="1"/>
