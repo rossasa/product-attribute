@@ -19,7 +19,7 @@ addon | version | summary
 [product_m2mcategories](product_m2mcategories/) | 8.0.1.0.2 | Product - Many Categories
 [product_manufacturer](product_manufacturer/) | 8.0.1.0.0 | Products Manufacturers
 [product_multi_image](product_multi_image/) | 8.0.1.0.0 | Multiple Images in Products
-[product_pricelist_fixed_price](product_pricelist_fixed_price/) | 8.0.1.0 | Fixed price in pricelists
+[product_pricelist_fixed_price](product_pricelist_fixed_price/) | 8.0.1.0.1 | Fixed price in pricelists
 [product_profile](product_profile/) | 8.0.1.0.2 | Allow to configure a product in 1 click
 [product_profile_example](product_profile_example/) | 8.0.1.0.1 | Product Profile Use Case
 [product_sequence](product_sequence/) | 8.0.0.1.0 | Product Sequence
@@ -42,7 +42,6 @@ addon | version | summary
 [product_electronic](product_electronic/) | 1.0 (unported) | Products Attributes & Manufacturers
 [product_gift](product_gift/) | 0.1 (unported) | product_gift
 [product_icecat](product_icecat/) | 1.0 (unported) | Product Information Import from icecat
-[product_images](product_images/) | 0.2 (unported) | Product Image Gallery
 [product_index](product_index/) | 1.0 (unported) | Manage indexes on products prices
 [product_listprice_upgrade](product_listprice_upgrade/) | 1.0 (unported) | Product listprice upgrade
 [product_lot_foundry](product_lot_foundry/) | 1.0 (unported) | Products Lot Foundry
