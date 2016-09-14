@@ -32,7 +32,7 @@ def update_null_and_slash_codes(cr):  # pragma: no cover
     :return: void
     """
     cr.execute("UPDATE product_product "
-               "SET default_code = '!!mig!!' || id "
+               "SET default_code = '' || id "
                "WHERE default_code IS NULL OR default_code = '/';")
 
 
