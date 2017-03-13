@@ -157,22 +157,6 @@
         </field>
     </record>
 
-<<<<<<< HEAD
-        <record id="view_product_variant_kanban_brand" model="ir.ui.view">
-            <field name="name">product variant kanban view: add brand</field>
-            <field name="model">product.product</field>
-            <field name="inherit_id" ref="product.product_kanban_view" />
-            <field name="arch" type="xml">
-                <xpath expr="//div[@class='oe_kanban_details']/strong[1]" position="after">
-                    <div>
-                        <a t-if="record.product_brand_id" type="open">
-                            <field name="product_brand_id"/>
-                        </a>
-                    </div>
-                </xpath>
-            </field>
-        </record>
-=======
     <record id="view_product_variant_kanban_brand" model="ir.ui.view">
         <field name="name">product variant kanban view: add brand</field>
         <field name="model">product.product</field>
@@ -187,7 +171,6 @@
             </xpath>
         </field>
     </record>
->>>>>>> upstream/10.0
 
     <record id="view_product_template_tree_brand" model="ir.ui.view">
         <field name="name">product tree view: add brand</field>
