@@ -194,20 +194,12 @@
         </field>
     </record>
 
-<<<<<<< HEAD
-        <menuitem
-            name="Product Brands"
-            id="menu_product_brand"
-            action="action_product_brand"
-            parent="sale.prod_config_main"/>
-=======
     <record model="ir.actions.act_window" id="action_product_brand">
         <field name="name">Brand</field>
         <field name="res_model">product.brand</field>
         <field name="view_type">form</field>
         <field name="view_mode">kanban,form,tree</field>
     </record>
->>>>>>> upstream/10.0
 
     <menuitem
         name="Product Brands"
