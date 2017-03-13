@@ -17,7 +17,7 @@
               ', Marcelo Pickler',
     'license': 'AGPL-3',
     'depends': [
-        'product',
+        'sale',
         ],
     'data': [
         'views/product_brand_view.xml',
